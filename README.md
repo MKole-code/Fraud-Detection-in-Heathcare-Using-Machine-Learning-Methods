@@ -27,15 +27,14 @@ Dataset for the experiment was compiled from the database information and financ
 ### Methods used during the experiment:
 
 <ul>
-  <li>SMOTE sampling was used for class balancing. There are 1068 samples in the dataset. Minority class is only 4%</li>
-  <li>timedelta() class in python was used to make features out of dates in the dataset</li>
-  <li>cross-validation was used for model selection</li>
-  <li>decision threshold was calculated using the geometric mean.</li>
+  <li>SMOTE sampling for class balancing. There are 1068 samples in the dataset. Minority class is only 4%</li>
+  <li>timedelta() class in python to make features out of dates in the dataset</li>
+  <li>cross-validation for model selection</li>
+  <li>geometric mean for calculating decision threshold</li>
   <li>feature importance for feature selection</li>
-  <li>log-loss graph for finding optimal number of iterations</li>
-  <li>Confusion matrix for evaluating the perfomance of models</li>
+  <li>log-loss graph for finding the optimal number of iterations</li>
+  <li>confusion matrix for evaluating perfomance of the models</li>
 </ul>
-
 
 ## Summary:
 The XGBoost model identifies 82% cases of fraud in the invoices, without having to analyze audio-recordings of patients’ phone calls and the clinic schedule. 
