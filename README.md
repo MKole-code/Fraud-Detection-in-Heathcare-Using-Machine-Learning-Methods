@@ -20,11 +20,11 @@ After studying 20 scientific publications and more than 150 Internet articles re
 </ul>
 
 ### Case study.
-Dataset for the experiment was compiled from the database information and financial documentation of a medical clinic. In this case, the victim of fraud is the clinic itself, because it gets overbilled by its business partner. The partner (aggregator) advertises the clinic and schedules patients’ visits. The aggregator bills the clinic for each scheduled visit. 
+Dataset for the case study was compiled from the database information and financial documentation of a medical clinic. In this case, the victim of fraud is the clinic itself, because it gets overbilled by its business partner. The partner (aggregator) advertises the clinic and schedules patients’ visits. The aggregator bills the clinic for each scheduled visit. 
 <br> Current rate of overbilling is 4%.
 <br> At the moment the bills are checked for incorrect positions manually by a clinic worker who listens to the phone calls audio recordings and looks through the schedule.
  
-### Methods used during the experiment:
+### Methods used during the case study:
 
 <ul>
   <li>SMOTE sampling for class balancing. There are 1068 samples in the dataset. Minority class is only 4%</li>
