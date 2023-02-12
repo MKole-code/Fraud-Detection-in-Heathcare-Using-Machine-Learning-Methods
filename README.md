@@ -19,7 +19,7 @@ After studying 20 scientific publications and more than 150 Internet articles re
   <li>Roc-auc metric to assess the quality of the model</li>
 </ul>
 
-### Experimental part of the project.
+### Case study.
 Dataset for the experiment was compiled from the database information and financial documentation of a medical clinic. In this case, the victim of fraud is the clinic itself, because it gets overbilled by its business partner. The partner (aggregator) advertises the clinic and schedules patients’ visits. The aggregator bills the clinic for each scheduled visit. 
 <br> Current rate of overbilling is 4%.
 <br> At the moment the bills are checked for incorrect positions manually by a clinic worker who listens to the phone calls audio recordings and looks through the schedule.
