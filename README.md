@@ -31,19 +31,11 @@ Dataset for the experiment was compiled from the database information and financ
   <li>timedelta() class in python was used to make features out of dates in the dataset</li>
   <li>cross-validation was used for model selection</li>
   <li>decision threshold was calculated using the geometric mean.</li>
+  <li>feature importance for feature selection</li>
+  <li>log-loss graph for finding optimal number of iterations</li>
+  <li>Confusion matrix for evaluating the perfomance of models</li>
 </ul>
-  
-The XGBoost model showed the best roc_auc result of 0.86.
- 
-Feature importance for XGBoost suggested that it makes sense to remove one feature. 
 
-The log-loss graph was used to find the optimal number of iterations (100). 
-
-Confusion matrix shows what the XGBoost model is capable of. 
-<ul>
-  <li>14% of all samples were attributed to fraud</li>
-  <li>14% of these suspicious samples include 82% of the real fraud</li>
-</ul>
 
 ## Summary:
 The XGBoost model identifies 82% cases of fraud in the invoices, without having to analyze audio-recordings of patients’ phone calls and the clinic schedule. 
